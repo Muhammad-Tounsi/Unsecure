@@ -36,7 +36,6 @@ before_script:
 # Run script
 script:
 - "./php-cs-fixer fix src --rules=@Symfony --diff --dry-run -vvv"
-- php app/console lint:yaml config
 - php app/console security:check
 
 # After a build, send email notification with the build results
