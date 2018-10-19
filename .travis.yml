@@ -34,14 +34,10 @@ matrix:
 
 
 # Install composer dependencies,
-# Create database, schema and fixtures
 install:
 - phpenv config-add travis.php.ini
 - composer self-update
 - composer install
-- cp app/config/parameters.yml.dist app/config/parameters.yml
-- php bin/console doctrine:database:create --env=test
-- php bin/console doctrine:schema:create --env=test
 
 before_script:
 - wget https://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -O php-cs-fixer
