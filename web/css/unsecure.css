@@ -58,9 +58,11 @@ body {
 }
 
 .logo {
-  color:#000dff;
-  font-weight:bold;
-  font-size:44pt;
-  text-align:center;
+	color: black;
+	font-weight: bold;
+	font-size: 44pt;
+	text-align: center;
+	background-color: white;
+	font-family: "Comic Sans MS";
 }
 
