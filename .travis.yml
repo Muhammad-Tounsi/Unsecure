@@ -36,6 +36,7 @@ matrix:
 # Install composer dependencies,
 # Create database, schema and fixtures
 install:
+- phpenv config-add travis.php.ini
 - composer self-update
 - composer install
 - cp app/config/parameters.yml.dist app/config/parameters.yml
