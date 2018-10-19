@@ -2,36 +2,20 @@
 
 This projet is a website of russian journalism.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ## Prerequisites
 
 What things you need to install the software and how to install them
 
 ### You have to install : 
 
--Docker.
--PHP > 5.5
--Composer
--PHPCSFIXER
+-Docker
 
-## Installing
+Launch docker-compoose up for start the project in docker container
 
-A step by step series of examples that tell you how to get a development env running
-
-#### The steps will be :
-
--To get a development running :
-
-Install travis-ci
-
-Install AccessLint
 
 ## Deployment
 
-
+You can deploy the project in Heroku easily
 
 ## Built With
 
@@ -56,8 +40,4 @@ See also the list of contributors who participated in this project.
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-## Acknowledgments
 
-#### Hat tip to anyone whose code was used
-#### Inspiration
-#### Boost 

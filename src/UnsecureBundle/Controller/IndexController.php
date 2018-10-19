@@ -84,8 +84,7 @@ class IndexController extends Controller
         if ((null !== $user) && $commentForm->isValid()) {
             $comment
                 ->setSubject($em->getRepository('UnsecureBundle:Subject')->findFull($subjectId))
-                ->setUser($user)
-            ;
+                ->setUser($user);
 
             $em->persist($comment);
             $em->flush();
