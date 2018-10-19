@@ -36,7 +36,7 @@ before_script:
 # Run script
 script:
 - "./php-cs-fixer fix src --rules=@Symfony --diff --dry-run -vvv"
-- php app/console security:check
+- docker run --rm -v $(pwd):/app phpqa/security-checker security:check
 
 # After a build, send email notification with the build results
 notifications:
